@@ -12,14 +12,14 @@ private:
 	Staff_Manager _staffManager;
 	Service_Manager _serviceManager;
 public:
-	//конструктор
+	//constructors
 	HotelManager() {
 		_rooms = {};
 		_guests = {};
 		_reservations = {};
 	}
 
-	//методи для кімнат
+	//methods for rooms
 	void addRoom(Room room) {
 		_rooms.push_back(room);
 	}
@@ -40,7 +40,7 @@ public:
 		return false;
 	}
 
-	//методи для гостей
+	//methods for guests
 	void addGuest(Guest guest) {
 		_guests.push_back(guest);
 	}
@@ -61,7 +61,7 @@ public:
 		return false;
 	}
 
-	//методи для бронювання
+	//methods for reservations
 	void addReservation(Reservation reservation) {
 		_reservations.push_back(reservation);
 	}
@@ -90,7 +90,7 @@ public:
 		}
 		return false;
 	}
-	//методи для персоналу
+	//methods for staff
 	void addStaff(Staff staff) {
 		_staffManager.addStaff(staff);
 	}
@@ -103,7 +103,7 @@ public:
 	bool checkStaff(Staff staff) {
 		return _staffManager.checkStaff(staff);
 	}
-	//методи для послуг
+	//methods for services
 	void addService(Service service) {
 		_serviceManager.addService(service);
 	}
@@ -118,7 +118,7 @@ public:
 	}
 };
 
-//функція для виведення меню
+//function for printing menu
 void printMenu() {
 	cout << "1. Rooms" << endl;
 	cout << "2. Guests" << endl;
@@ -128,7 +128,7 @@ void printMenu() {
 	cout << "6. Exit" << endl;
 }
 
-//функція для вибору пункту меню
+//function for printing sub menu
 int chooseMenu() {
 	int choice;
 	cout << "Choose a menu item: ";
@@ -136,7 +136,7 @@ int chooseMenu() {
 	return choice;
 }
 
-//функція для вибору підпункту меню
+//function for printing sub menu
 int chooseSubMenu() {
 	int choice;
 	cout << "1. Add" << endl;
