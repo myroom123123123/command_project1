@@ -38,5 +38,14 @@
     <ClInclude Include="reservation_manager_class.h">
       <Filter>domain\reservations</Filter>
     </ClInclude>
+    <ClInclude Include="staff.h">
+      <Filter>domain\reservations</Filter>
+    </ClInclude>
+    <ClInclude Include="service.h">
+      <Filter>domain\reservations</Filter>
+    </ClInclude>
+    <ClInclude Include="hotelmanagment.h">
+      <Filter>domain\reservations</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
