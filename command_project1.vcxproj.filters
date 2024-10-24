@@ -4,10 +4,39 @@
     <Filter Include="main">
       <UniqueIdentifier>{8e04f376-5a15-4a66-83ed-344e039e2c05}</UniqueIdentifier>
     </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{2976c7aa-d5ed-4485-8c13-f287ab120ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{e9ef37f0-bc9f-42a1-9093-21bb47c622a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\reservations">
+      <UniqueIdentifier>{be0ab1cb-bede-48a0-9056-c51ce419c3a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="domain.h">
+      <Filter>domain</Filter>
+    </ClInclude>
+    <ClInclude Include="lib.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="guest_class.h">
+      <Filter>domain\reservations</Filter>
+    </ClInclude>
+    <ClInclude Include="reservation_class.h">
+      <Filter>domain\reservations</Filter>
+    </ClInclude>
+    <ClInclude Include="room_class.h">
+      <Filter>domain\reservations</Filter>
+    </ClInclude>
+    <ClInclude Include="reservation_manager_class.h">
+      <Filter>domain\reservations</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

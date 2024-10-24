@@ -129,6 +129,14 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="domain.h" />
+    <ClInclude Include="guest_class.h" />
+    <ClInclude Include="lib.h" />
+    <ClInclude Include="reservation_class.h" />
+    <ClInclude Include="reservation_manager_class.h" />
+    <ClInclude Include="room_class.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
